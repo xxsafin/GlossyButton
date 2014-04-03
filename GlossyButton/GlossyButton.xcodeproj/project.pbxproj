@@ -21,6 +21,9 @@
 		D7DE894418ECEFB600D24CAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DE892618ECEFB600D24CAC /* UIKit.framework */; };
 		D7DE894C18ECEFB600D24CAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7DE894A18ECEFB600D24CAC /* InfoPlist.strings */; };
 		D7DE894E18ECEFB600D24CAC /* GlossyButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DE894D18ECEFB600D24CAC /* GlossyButtonTests.m */; };
+		D7DE895918ED36B900D24CAC /* XXCoolButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DE895818ED36B900D24CAC /* XXCoolButton.m */; };
+		D7DE895C18ED3E9900D24CAC /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DE895B18ED3E9900D24CAC /* Common.m */; };
+		D7DE895F18ED525F00D24CAC /* XXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DE895E18ED525F00D24CAC /* XXMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		D7DE894918ECEFB600D24CAC /* GlossyButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlossyButtonTests-Info.plist"; sourceTree = "<group>"; };
 		D7DE894B18ECEFB600D24CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7DE894D18ECEFB600D24CAC /* GlossyButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlossyButtonTests.m; sourceTree = "<group>"; };
+		D7DE895718ED36B900D24CAC /* XXCoolButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXCoolButton.h; sourceTree = "<group>"; };
+		D7DE895818ED36B900D24CAC /* XXCoolButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXCoolButton.m; sourceTree = "<group>"; };
+		D7DE895A18ED3E9900D24CAC /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		D7DE895B18ED3E9900D24CAC /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		D7DE895D18ED525F00D24CAC /* XXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXMainViewController.h; sourceTree = "<group>"; };
+		D7DE895E18ED525F00D24CAC /* XXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +121,8 @@
 		D7DE892818ECEFB600D24CAC /* GlossyButton */ = {
 			isa = PBXGroup;
 			children = (
+				D7DE895A18ED3E9900D24CAC /* Common.h */,
+				D7DE895B18ED3E9900D24CAC /* Common.m */,
 				D7DE893118ECEFB600D24CAC /* XXAppDelegate.h */,
 				D7DE893218ECEFB600D24CAC /* XXAppDelegate.m */,
 				D7DE893418ECEFB600D24CAC /* Main.storyboard */,
@@ -119,6 +130,10 @@
 				D7DE893818ECEFB600D24CAC /* XXViewController.m */,
 				D7DE893A18ECEFB600D24CAC /* Images.xcassets */,
 				D7DE892918ECEFB600D24CAC /* Supporting Files */,
+				D7DE895718ED36B900D24CAC /* XXCoolButton.h */,
+				D7DE895818ED36B900D24CAC /* XXCoolButton.m */,
+				D7DE895D18ED525F00D24CAC /* XXMainViewController.h */,
+				D7DE895E18ED525F00D24CAC /* XXMainViewController.m */,
 			);
 			path = GlossyButton;
 			sourceTree = "<group>";
@@ -252,6 +267,9 @@
 			files = (
 				D7DE893318ECEFB600D24CAC /* XXAppDelegate.m in Sources */,
 				D7DE893918ECEFB600D24CAC /* XXViewController.m in Sources */,
+				D7DE895C18ED3E9900D24CAC /* Common.m in Sources */,
+				D7DE895F18ED525F00D24CAC /* XXMainViewController.m in Sources */,
+				D7DE895918ED36B900D24CAC /* XXCoolButton.m in Sources */,
 				D7DE892F18ECEFB600D24CAC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

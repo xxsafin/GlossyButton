@@ -7,6 +7,7 @@
 //
 
 #import "XXViewController.h"
+#import "XXCoolButton.h"
 
 @interface XXViewController ()
 
@@ -14,11 +15,28 @@
 
 @implementation XXViewController
 
-- (void)viewDidLoad
+static NSMutableArray*array;
+
+-(void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
 }
+
+- (IBAction)sliderValueChanged:(id)sender {
+    if(sender == _hueSlider)
+    {
+        _button.hue = [(UISlider *)sender value];
+    }
+    else if (sender == _satSlider)
+    {
+        _button.saturation = [(UISlider *)sender value];
+    }
+    else if (sender == _briSlider)
+    {
+        _button.brightness = [(UISlider *)sender value];
+    }
+}
+
 
 - (void)didReceiveMemoryWarning
 {
